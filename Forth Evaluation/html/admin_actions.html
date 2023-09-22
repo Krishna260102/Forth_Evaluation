@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin View</title>
+    <link rel="stylesheet" href="../css/admin_actions.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script>
+        window.history.forward();
+    </script>
+  <style>
+
+    @media (max-width: 768px) {
+        table {
+            width: 100%;
+            margin: 0;
+        }
+    }
+    
+  </style>
+</head>
+
+<body style="background-image: url('/Images/2.jpg'); background-size: cover; text-align: center; background-position: center;">
+    <h1 style="margin-top:2%;">Welcome, Admin.!</h1>
+
+    <div class="container">
+    </div>
+
+
+    <h2>All Travel Requests</h2>
+    <table class = "table-bordered">
+        <tr >
+            <th>Request ID</th>
+            <th>Employee Name</th>
+            <th>Destination</th>
+            <th>Status</th>
+            <th>Action</th>
+        </tr>
+        <tr>
+            <td>TR001</td>
+            <td>Krishna</td>
+            <td>New York</td>
+            <td>Accepted</td>
+            <td><select id="dropdown" name="action" onchange="setField(this.value)">
+                    <option value="approve">Approve</option>
+                    <option value="reject">Reject</option>
+                    <option value="onhold">Put On Hold</option>
+            </td>
+        </tr>
+        <tr>
+            <td>TR002</td>
+            <td>Ram</td>
+            <td>Los Angeles</td>
+            <td>On Hold</td>
+            <td><select id="dropdown" name="action" onchange="setField(this.value)">
+                    <option value="approve">Approve</option>
+                    <option value="reject">Reject</option>
+                    <option value="onhold">Put On Hold</option>
+            </td>
+        </tr>
+        <tr>
+            <td>TR003</td>
+            <td>Sam</td>
+            <td>Los Angeles</td>
+            <td>Rejected</td>
+            <td><select id="dropdown" name="action" onchange="setField(this.value)">
+                    <option value="approve">Approve</option>
+                    <option value="reject">Reject</option>
+                    <option value="onhold">Put On Hold</option>
+            </td>
+        </tr>
+        <tr>
+            <td>TR004</td>
+            <td>Damu</td>
+            <td>Los Angeles</td>
+            <td>Rejected</td>
+            <td><select id="dropdown" name="action" onchange="setField(this.value)">
+                    <option value="approve">Approve</option>
+                    <option value="reject">Reject</option>
+                    <option value="onhold">Put On Hold</option>
+            </td>
+        </tr>
+        <tr>
+            <td>TR005</td>
+            <td>Sarath</td>
+            <td>Los Angeles</td>
+            <td>On Hold</td>
+            <td><select id="dropdown" name="action" onchange="setField(this.value)">
+                    <option value="approve">Approve</option>
+                    <option value="reject">Reject</option>
+                    <option value="onhold">Put On Hold</option>
+            </td>
+        </tr>
+    </table>
+    
+
+    <div>
+        <br>
+        <button id="goback">Go Back</button>
+    </div>
+
+    <script src="/js/admin_actions.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,45 @@
+/* employee_home.css */
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.flex-child {
+    margin: 0 10px;
+}
+
+#id{
+    text-align: center;
+}
+
+
+body {
+    background-image: url('/Images/2.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    max-width: 600px; /* Adjust this value based on your content */
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.button-container {
+    margin-top: 1em;
+}
+
+.button-container button {
+    margin: 0 5px;
+}

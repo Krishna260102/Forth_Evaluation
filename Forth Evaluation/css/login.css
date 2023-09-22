@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #0740df;
+    /* Light gray background color */
+    border-radius: 10px;
+    
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+}
+.card{
+    animation: changeColor 4s linear infinite;
+}
+
+body {
+    background-image: url('/Images/1.jpg');
+    /* Replace 'path_to_your_image.jpg' with the actual path to your image */
+    background-size: cover;
+    background-position: center;
+}
+
+@keyframes changeColor {
+    0% {
+        background-color: #3498db;
+    }
+
+    50% {
+        background-color: #e74c3c;
+    }
+
+    100% {
+        background-color: #3498db;
+    }
+}

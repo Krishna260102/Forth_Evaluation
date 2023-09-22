@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Page</title>
+
+    <link rel="stylesheet" href="/css/travel_request_form.css">
+    <script src="/js/travel_request_form.js" defer></script>
+    <script>
+        window.history.forward();
+    </script>
+</head>
+
+<body>
+    <div>
+        <form id="form">
+            <div>
+                <h1>
+                    TRAVEL REQUESTOR
+                    <button id="logout">Log out</button>
+                    <span><!--GLYPH ICON--></span>
+                </h1>
+            </div>
+            <div>
+                <div id="formTab">
+                    Form
+                </div>        
+            </div>
+            <div>
+                <h2>
+                    Travel Request Form
+                </h2>
+            </div>
+            <div>
+                <div>
+                    <label for="empId">Emp Id</label>
+                    <input type="text" placeholder="Employee ID" required>
+                </div>
+                <div>
+                    <label for="empName">Emp Name</label>
+                    <input type="text" placeholder="Employee Name" required>
+                </div>
+                <div>
+                    <label for="project">Project</label>
+                    <input type="text" placeholder="Project" required>
+                </div>
+                <div>
+                    <label for="travelCause">Cause for travel</label>
+                    <input type="text" placeholder="Cause" required>
+                </div>
+                <div>
+                    <label for="source">Source</label>
+                    <input type="text" placeholder="Source" required>
+                </div>
+                <div>
+                    <label for="destination">Destination</label>
+                    <input type="text" placeholder="Destination" required>
+                </div>
+                <div>
+                    <label for="fromDate">From Date</label>
+                    <input type="date" id="fromDate" name="fromDate">
+                </div>
+                <div>
+                    <label for="noOfDays">Number of Days</label>
+                    <input type="number" id="noOfDays" name="noOfDays" disabled>
+                </div>
+                <div>
+                    <label for="toDate">To Date</label>
+                    <input type="date" id="toDate" name="toDate">
+                </div>
+                <div>
+                    <label for="modeOfTravel">Mode Of Travel</label>
+                    <input type="text" placeholder="Mode Of Travel" required>
+                </div>
+                <div>
+                    <button type="submit">
+                        Send
+                    </button>
+                </div>
+            </div>
+
+            <div id="userView" style="display: none;">
+                <h2>User View</h2>
+                <p>Welcome, User!</p>
+                <button id="backToForm">Back to Form</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

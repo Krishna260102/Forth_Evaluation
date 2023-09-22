@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+}
+
+form {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #e44545;
+    border-radius: 10px;
+    background-color: #803939;
+}
+
+label, input {
+    display: block;
+    margin: 10px 0;
+    width: 100%;
+}
+
+input[type="submit"] {
+    background-color: #2421c7;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+
+body {
+    background-image: url('/Images/2.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    margin: 0;
+    height: 150vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    max-width: 600px; /* Adjust this value based on your content */
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+button {
+    margin-top: 10px;
+}
+
+#userView button {
+    margin-top: 20px;
+}
+

@@ -1,0 +1,41 @@
+body {
+    background-image: url('/Images/2.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px; /* Set a maximum width for the content */
+    background-color: rgba(255, 255, 255, 0); /* Add a semi-transparent background for better readability */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.table-bordered {
+    border: 2px solid black;
+    margin: 0 auto; /* Center the table */
+    width: 70%;
+    max-width: 100%;
+}
+
+.table-bordered th,
+.table-bordered td {
+    border: 2px solid black !important;
+}
+
+.button-container {
+    margin-top: 1em;
+}
+
+.button-container button {
+    margin: 0 5px;
+}
